@@ -234,7 +234,8 @@ margin-bottom: 48px;
         height: 96px;
         color: #dedfe0;
 }
-.about-section{
+.features-section{
+    background: #303234;
     background-image: url("/img/features/mob.png");
     background-repeat: no-repeat;
     background-position: bottom 64px center;
@@ -242,7 +243,7 @@ margin-bottom: 48px;
     height: 1224px;
 }
 @media only screen and (min-width: 1440px) {
-.about-section {
+.features-section {
         background-image: url("/img/features/desk.png");
         background-repeat: no-repeat;
         background-position: bottom 80px center;
@@ -378,5 +379,39 @@ gap: 10px;
     .faq-acc-el.open .faq-acc-el-descr-frame {
     width: 1062px;
     }
-
+}
+/* Contact */
+.contact-section{
+background: #303234;   
+background-image: url("/img/contact/mob.png"); 
+background-repeat: no-repeat;
+background-position: bottom 64px center;
+background-size: 100% 431px;
+height: 976px;
+}
+.contact-text{
+width: 303px;
+margin-left: auto;
+margin-right: auto;
+color: #dedfe0;
+}
+.contact-link{
+    display: flex;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    color: #dedfe0;
+}
+@media only screen and (min-width: 1440px) {
+    .contact-section{
+background-image: url("/img/contact/desk.png");
+    background-repeat: no-repeat;
+    background-position: bottom 80px center;
+    background-size: 1200px 431px;
+    height: 976px;
+    }
+ .contact-text{
+    width: 100%;
+ }
 }
