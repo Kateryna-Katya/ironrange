@@ -1,0 +1,83 @@
+.home-section{
+    background: #f1f1f5;
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 244px;
+    height: 812px;
+}
+.home-title{
+    margin-top: 48px;
+    font-family: "Hanuman", sans-serif;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        text-align: center;
+        color: #4b4d52;
+}
+.home-text{
+    width: 323px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+}
+.home-span{
+    display: none;
+}
+.home-link{
+    margin-top: 60px;
+margin-left: auto;
+margin-right: auto;
+}
+.btn{
+     display: flex;
+align-items: center;
+justify-content: center;  
+border: 1px solid #1491ca;
+    border-radius: 12px;
+    width: 260px;
+    height: 64px;
+    box-shadow: 2px 2px 1px 0 rgba(20, 21, 31, 0.2);
+background: linear-gradient(180deg, #292929 0%, #1a1a1a 100%);
+transition: background 0.3 ease-in-out;
+}
+.btn:hover,
+.btn:focus{
+    background: linear-gradient(180deg, #292929 0%, #1491ca 100%);
+}
+.home-rules{
+    margin-top: 16px;
+    font-size: 12px;
+}
+.desk{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+.home-section {
+    background: #fbfbfa;
+        background-image: url("/img/home/desk.png");
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        background-size: 100% 685px;
+    }
+.home-title{
+font-size: 48px;
+}
+.mob{
+    display: none;
+}
+.home-span{
+    display: inline;
+}
+.home-text{
+    width: 100%;
+}
+.desk {
+    display: block;
+}
+.home-link{
+    margin-top: 32px;
+}
+}
+    
