@@ -7,3 +7,29 @@ body{
     text-align: center;
     color: #4b4d52;
 }
+h2{
+  font-family: "Hanuman", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    color: #dedfe0;
+}
+h3{
+  font-family: "Hanuman", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    text-align: center;
+    color: #dedfe0;
+    margin-bottom: 48px;
+}
+@media only screen and (min-width: 1440px) {
+  body{
+    font-size: 16px;
+  }
+  h3{
+    font-size: 32px;
+  }
+}
